@@ -21,7 +21,8 @@
   transform: translate(-50%,-50%);
   font-family: 'Roboto Slab', serif;
   text-transform: uppercase;
-  color: white;
+  text-shadow: 2px 2px black;
+  color: rgb(224, 234, 242);
 }
 
 main.container {
@@ -43,6 +44,17 @@ main.container {
 
 #parigi {
   background-image: url(../img/parigi.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+#coimbra {
+  background-image: url(../img/coimbra.jpg);
+  background-size: cover;
+}
+
+#madrid {
+  background-image: url(../img/madrid.jpg);
   background-size: cover;
   background-position: bottom;
 }
