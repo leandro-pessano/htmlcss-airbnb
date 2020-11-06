@@ -5,8 +5,27 @@
 }
 
 main.container {
+  position: relative;
   width: 80vw;
   height: 100vh;
   margin: 0 auto;
+  padding: 1% 0;
   background-color: lightgrey;
+}
+
+.container .citybox {
+  display: inline-block;
+  width: 40%;
+  height: 30%;
+  margin-bottom: 1%;
+  border: 1px solid black;
+}
+
+.container .cityinfo {
+  display: inline-block;
+  width: calc(60% - 10px);
+  height: 30%;
+  margin-bottom: 1%;
+  margin-left: 5px;
+  border: 1px solid black;
 }
